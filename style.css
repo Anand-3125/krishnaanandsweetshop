@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.jumbotron {
+    width: 90%;
+height:20% ;
+}
+.heading{
+    text-align: center;
+    font-size: 3 rem;
+    margin-bottom: 0.5 rem;
+}
+ .container{
+    
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#cards{
+    width: 50%;
+ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 33%;
+    box-shadow: 0 0 4px 3px rgb(248, 148, 148);
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+.card-text{
+    font-size: medium;
+    width: 100%;
+    height: 50%;
+    
+}
+.images{
+    
+   width: 80%;
+    height: 50%;
+}
+
